@@ -1,38 +1,35 @@
-$('#github').hover(function(event) {
-    $('.fill').css('color', 'rgba(23, 21, 21, 1)').css('box-shadow', 'inset 0 -2px 0 rgba(23, 21, 21, 1)');
-    $('#github').css('color', 'whitesmoke');
-  }, function(event) {
-    resetUI()
-  });
+
+var portfolio_color = $('#portfolio').css('color');
+var research_color = $('#research').css('color');
+var about_color = $('#about').css('color');
+var github_color = 'rgba(23, 21, 21, 1)';
+
 
 $('#research').hover(function(event) {
-  $('.fill').css('color', 'rgba(26, 132, 188, 1)').css('box-shadow', 'inset 0 -2px 0 rgba(26, 132, 188, 1)');
+  $('.fill').css('color', research_color).css('box-shadow', 'inset 0 -2px 0 ' + research_color);
   $('#research').css('color', 'whitesmoke');
   }, function(event) {
     resetUI()
 });
 
 $('#about').hover(function(event) {
-  $('.fill').css('color', '#0f8f7a').css('box-shadow', 'inset 0 -2px 0 #0f8f7a');
+  $('.fill').css('color', about_color).css('box-shadow', 'inset 0 -2px 0 ' + about_color);
   $('#about').css('color', 'whitesmoke');
   }, function(event) {
     resetUI()
 });
 
 $('#portfolio').hover(function(event) {
-  $('.fill').css('color', 'rgba(208,91,70,1)').css('box-shadow', 'inset 0 -2px 0 rgba(208,91,70,1)');
+  $('.fill').css('color', portfolio_color).css('box-shadow', 'inset 0 -2px 0 ' + portfolio_color);
   $('#portfolio').css('color', 'whitesmoke');
   }, function(event) {
     resetUI()
 });
 
-
-
 function resetUI() {
-    $('#github').css('color', 'rgba(23, 21, 21, 1)').css('box-shadow', 'inset 0 -2px 0 rgba(23, 21, 21, 1)');
-    $('#research').css('color', 'rgba(26, 132, 188, 1)').css('box-shadow', 'inset 0 -2px 0 rgba(26, 132, 188, 1)');
-    $('#about').css('color', '#0f8f7a').css('box-shadow', 'inset 0 -2px 0 #0f8f7a');
-    $('#portfolio').css('color', 'rgba(208,91,70,1)').css('box-shadow', 'inset 0 -2px 0 rgba(208,91,70,1)');
+    $('#research').css('color', research_color).css('box-shadow', 'inset 0 -2px 0 ' + research_color);
+    $('#about').css('color', about_color).css('box-shadow', 'inset 0 -2px 0 ' + about_color);
+    $('#portfolio').css('color', portfolio_color).css('box-shadow', 'inset 0 -2px 0 ' + portfolio_color);
 }
 
 // When the user scrolls down 20px from the top of the document, show the button

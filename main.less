@@ -1,3 +1,12 @@
+@portfolio-color: rgba(208,91,70,1);
+@research-color: rgba(26, 132, 188, 1);
+@about-color: #0f8f7a;
+
+// different color scheme!
+//@portfolio-color: #AB4374;
+//@research-color: #2962A7;
+//@about-color: #19697E;
+
 html, body {
   font-family: "Segoe UI", Frutiger ,"Frutiger Linotype","Dejavu Sans","Helvetica Neue", Arial, sans-serif;
   height: 100%;
@@ -85,29 +94,29 @@ a:hover {
   }
 
   #research {
-    color: rgba(26, 132, 188, 1);
-    box-shadow: inset 0 -2px 0 rgba(26, 132, 188, 1);
+    color: @research-color;
+    box-shadow: inset 0 -2px 0 @research-color;
 
     &:before {
-      background: rgba(26, 132, 188, 1);;
+      background: @research-color;;
     }
   }
 
   #portfolio{
-    color: rgba(208,91,70,1);
-    box-shadow: inset 0 -2px 0 rgba(208,91,70,1);
+    color: @portfolio-color;
+    box-shadow: inset 0 -2px 0 @portfolio-color;
 
     &:before {
-      background: rgba(208, 91, 70, 1);
+      background: @portfolio-color;
     }
   }
 
   #about{
-    color:#0f8f7a;
-    box-shadow: inset 0 -2px 0 #0f8f7a;
+    color:@about-color;
+    box-shadow: inset 0 -2px 0 @about-color;
 
     &:before{
-      background: #0f8f7a;
+      background: @about-color;
     }
   }
 
@@ -147,15 +156,15 @@ a:hover {
 }
 
 #portfolio-section{
-  background: rgba(208,91,70,1);
+  background: @portfolio-color;
 }
 
 #research-section {
-  background: rgba(26, 132, 188, 1);
+  background: @research-color;
 }
 
 #about-section {
-  background: #0f8f7a;
+  background: @about-color;
 }
 
 
@@ -187,8 +196,8 @@ a:hover {
 
 
 .blink {
-  animation: blink-animation 1.5s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+  animation: blink-animation 1.2s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1.2s steps(2, start) infinite;
 }
 @keyframes blink-animation {
   to {
@@ -205,7 +214,7 @@ a:hover {
 
     .body_div {
 
-      width: 100vw;
+      //width: 100vw;
 
       #research, #portfolio, #about {
         padding: 5px 5px;
