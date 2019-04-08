@@ -2,7 +2,7 @@
 @research-color: rgba(26, 132, 188, 1);
 @about-color: #0f8f7a;
 
-// different color scheme!
+ //different color scheme!
 //@portfolio-color: #AB4374;
 //@research-color: #2962A7;
 //@about-color: #19697E;
@@ -37,29 +37,34 @@ a:hover {
   font-size: 1.1em;
 }
 
-.link {
-  display: block;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  text-decoration-color: whitesmoke;
-}
-
 .sub-link {
   text-decoration: underline;
   text-decoration-color: whitesmoke;
   padding-left: 5px;
   padding-right: 5px;
+  display: inline;
+}
+
+.pl0 {
+  padding-left: 0px;
 }
 
 .list {
   display: block;
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
   padding-bottom: 10px;
+}
+
+td.list {
+  min-width: 16em;
+  display: table-cell;
 }
 
 .blurb {
   font-family: 'Lato', sans-serif;
-  width: 530px;
-  line-height: 30px;
+  width: 630px;
+  line-height: 25px;
   padding-bottom: 30px;
 }
 
@@ -157,6 +162,9 @@ a:hover {
 
 #portfolio-section{
   background: @portfolio-color;
+  .sub-title {
+    margin-top: 20px
+  }
 }
 
 #research-section {
@@ -232,8 +240,61 @@ a:hover {
       }
     }
 
-    .blurb {
-      width: 92vw;
-    }
-
   }
+
+@media only screen and (max-width: 42em) {
+  .blurb, .list {
+    width: 92vw;
+  }
+}
+
+
+/*================================
+https://css-tricks.com/accessible-simple-responsive-tables/
+================================*/
+@breakpoint: 40em;
+@colWidth: 40em;
+
+/* Variables
+================================== */
+@bw: 0px;  // border width
+
+/* Tables
+================================== */
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width: @colWidth;
+
+}
+.Rtable-cell {
+  flex-grow: 1;
+  overflow: hidden; // Or flex might break
+  list-style: none;
+  margin-bottom: 1em;
+
+  > h1, > h2, > h3, > h4, > h5, > h6 { margin: 0; }
+}
+
+/* Table column sizing
+================================== */
+.Rtable--2cols > .Rtable-cell  { width: 50%; }
+
+/* Responsive
+==================================== */
+@media all and (max-width: @breakpoint) {
+  .Rtable--collapse  {
+    display: block;
+    > .Rtable-cell {
+      width: 100% !important;
+      //margin-left: 1em;
+    }
+  }
+}
+
+// Non-Flex modernizer fallback
+.no-flexbox .Rtable {
+  display: block;
+  > .Rtable-cell { width: 100%; }
+}
