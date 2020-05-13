@@ -1,0 +1,81 @@
+@import "main.less";
+
+/* Project Page
+================================== */
+//.project-page .body_div .vertical_center {
+//  max-width: 50vw;
+//}
+
+.project-page {
+  transition:         0.19s ease-in;
+  -o-transition:      0.19s ease-in;
+  -ms-transition:     0.19s ease-in;
+  -moz-transition:    0.19s ease-in;
+  -webkit-transition: 0.19s ease-in;
+}
+
+.project-page {
+  iframe {
+    width: @colWidth;
+    height: 50vh;
+  }
+
+  .blurb {
+    width: inherit;
+    color: black;
+    text-transform: none;
+    cursor: inherit;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    margin: 15px 0;
+
+  }
+
+  .project-title {
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    letter-spacing: 2px;
+  }
+
+  .doc-link {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+    padding: 0;
+    font-size: 0.8rem;
+    text-decoration: underline;
+  }
+
+  a #site-title {
+  }
+}
+
+@media all and (max-width: @breakpoint-1) {
+  .project-page {
+    iframe {
+      width: 70vw;
+    }
+    .blurb {
+      width: 70vw;
+    }
+  }
+}
+
+
+@media all and (max-width: @breakpoint) {
+  .project-page {
+    iframe {
+      width: 90vw;
+    }
+    .blurb {
+      width: 90vw;
+    }
+  }
+}
+
+
+
+

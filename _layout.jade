@@ -5,9 +5,11 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title cdste
     link(rel='stylesheet', type='text/css', href='//fonts.googleapis.com/css?family=Ubuntu+Mono|Lato')
-    link(rel="stylesheet" href="/main.css")
+    link(rel="stylesheet" href="res/main.css")
+    link(rel="stylesheet" href="res/grid.css")
 
 body
   != yield
   script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
-  script(src="app.js")
+  script(src="https://unpkg.com/colcade@0/colcade.js")
+  script(src="res/app.js")

@@ -1,94 +1,22 @@
 .body_div
-    .verticle_center
+    .vertical_center.landing
         #site_title
             | $ cd Ste
             .box.blink  
         #links
             //a#portfolio.fill(href="http://cdste.dunked.com", target="_blank") portfolio
             a#portfolio.fill(href="#portfolio-section") portfolio
-            a#research.fill(href="#research-section") research
+            a#research.fill(href="#research-section") academia
             a#about.fill(href="#about-section") about
             //- a#blog.fill
 
 button(onclick="topFunction()" id="toTop" title="Go to top") Top
 
 #portfolio-section
-    .body_div
-        .verticle_center
-            .title Portfolio
-
-            .sub-title Work
-            a.list AR Theater Technical Lead, UC Berkeley • Unity, ARKit, ARCore • Jan - Present
-            .list VR Instructor,
-                a.sub-link(href="https://frameworks.ced.berkeley.edu/2018/virtual-and-augmented-reality-lab/", target="_blank") ARCH 129/229
-                | UC Berkeley • Unity, VR, Pedagogy • Jan - Present
-            .list Software Engineer, Autodesk • fullstack Javascript • 2014 - 2016
-            a.list.sub-link.pl0(href="https://cdste.dunked.com/tag/ui-design", target="_blank") UX / Design Portfolio
-
-            .sub-title Academic Projects
-            .Rtable.Rtable--2cols.Rtable--collapse
-                .Rtable-cell.Rtable-cell--head(style="order:0;")
-                    a.sub-link.pl0(href="https://inst.eecs.berkeley.edu/~cs194-26/fa18/upload/files/projFinalProposed/cs194-26-adv/docs/", target="_blank") 360 Neural Style Transfer
-                    | -
-                    a.sub-link(href="https://youtu.be/mfZ9-9tH_uE", target="_blank") video
-                .Rtable-cell(style="order:1;")
-                    a.sub-link.pl0(href="https://inst.eecs.berkeley.edu/~cs194-26/fa18/upload/files/proj4/cs194-26-adv/docs/", target="_blank") Face Morphing
-                .Rtable-cell(style="order:2;")
-                    a.sub-link.pl0(href="https://inst.eecs.berkeley.edu/~cs194-26/fa18/upload/files/proj6B/cs194-26-adv/docs/", target="_blank") Image Warping and Mosaicing
-                .Rtable-cell.Rtable-cell--foot(style="order:3;")
-                    a.sub-link.pl0(href="https://docs.google.com/document/d/1hp75vIj-jnFNLgO5SwqiaessIslejQcpgF-qBs3g7PU/edit?usp=sharing", target="_blank") Weather App Design report
-                .Rtable-cell.Rtable-cell--head(style="order:0;")
-                    a.sub-link.pl0(href="https://stecd.github.io/ClothSimulator/", target="_blank") Cloth Simulation
-                .Rtable-cell(style="order:1;")
-                    a.sub-link.pl0(href="https://docs.google.com/document/d/1kTQjm_8UoCp9bfocMQHczDmO1B6OHxxsIhB7N3WEzCY/edit?usp=sharing", target="_blank") Coloring App Design report
-                .Rtable-cell(style="order:2;")
-                    a.sub-link.pl0(href="https://stecd.github.io/pathtracerPart1/", target="_blank") PathTracer I
-                .Rtable-cell.Rtable-cell--foot(style="order:3;")
-                    a.sub-link.pl0(href="https://stecd.github.io/PathtracerPart2/", target="_blank") PathTracer II
-
-            .sub-title Upper Division Classes
-            .Rtable.Rtable--2cols.Rtable--collapse
-                .Rtable-cell.Rtable-cell--head(style="order:0;") CS194 Computational Photography
-                .Rtable-cell(style="order:1;") CS194 CS184 Computer Graphics
-                .Rtable-cell(style="order:2;") CS189 Machine Learning
-                .Rtable-cell.Rtable-cell--foot(style="order:3;") CS188 Artificial Intelligence
-                .Rtable-cell.Rtable-cell--head(style="order:0;") Human Computer Interface Design
-                .Rtable-cell(style="order:1;") NWMEDIA290 Critical Practices
-                .Rtable-cell(style="order:2;") CS170 Algorithms
-                .Rtable-cell.Rtable-cell--foot(style="order:3;") EDU140 Educational Perspectives on Learning
+    != partial("sections/_portfolio.jade")
 
 #research-section
-    .body_div
-        .verticle_center
-            .title Research
-
-            a.sub-title(href="https://xrlab.berkeley.edu/research/bampfa-ar-the-hands-that-built-the-building/", target="_blank") BAMPFA AR - XR Lab
-            .position Immersive Experience Designer and Developer  • 2018-Present
-            .blurb As part of the XR Lab, I am building the Augmented Reality experience for the Berkeley Art Museum and Pacific Film Archive (BAMPFA), funded by the Arts+Design initiative. Working with Unity and ARKit, I am designing modern interactions, animations and data displays. In using AR to recognize the builders that constructed BAMPFA itself, our team also aims to push the boundaries of educational storytelling, and to show the efficacy of using new media to tell human stories.
-
-            a.sub-title Immersive Cinema - VR@Berkeley
-            .position Team Lead • 2016-Present
-            .blurb We are a research and production group at UC Berkeley furthering the current language, body of knowledge, and defining the standards that describes 360 and immersive cinema.
-                a.sub-link(href="https://medium.com/immersivecinema", target="_blank") blog
-                a.sub-link(href="https://www.youtube.com/channel/UCFvw9ErdWJZcF7seNycwGbA", target="_blank") youtube
-
-            a.sub-title(href="http://www.goodlylabs.org/", target="_blank") Goodly Labs - Berkeley Institute of Data Science
-            .position UX, Web Development and Database Design • 2018
-            .blurb I worked on two different research teams:
-                a.sub-link(href="http://www.goodlylabs.org/research-projects/decidingforce/", target="_blank") The Deciding Force
-                | that classifies information from more than 8,000 news articles describing more than 35,000 events which police and the Occupy movement interacted, and on
-                a.sub-link(href="http://www.goodlylabs.org/research-projects/capitolquery/", target="_blank") Capital Query
-                | that organizes the difficult-to-research Congressional record into a well-organized, easy-to-query database.
+    != partial("sections/_academia.jade")
 
 #about-section
-    .body_div
-        .verticle_center
-            .title About
-            .blurb Hello! My name is Stephanie Claudino Daffara, but my friends call me Ste. I started off as a filmmaker, became a computer scientist, and have finally now mixed the two into what I am today: an immersive experience creator. From AR museum exhibits to XR integrated Theatric performances, I am always searching for new ways to tell narratives that enhance the delivery and unfolding of stories.
-            .blurb I am a recent graduate from UC Berkeley with a degree in Computer Science. The classes I took focused on Graphics and Machine learning; the research projects I participated in involved Data Science and Visualization; and the collaborations I did with professors involve Augmented Reality and Art. For fun I led an Immersive Cinema (360-degrees) Research and Production group. Today I am still involved with the University, contracted as a VR and AR expert for a diverse number of projects.
-            .blurb In the same way that I practice furthering my own knowledge, I actively seek projects and research teams that focus on the intersection of technology, education and the arts pushing for a reality where everyone has easy access to education and the mental, emotional and financial freedom to follow their creative passions.
-            .blurb So if you are looking for a hand in software development, design or immersive experiences lets talk:
-                a.sub-link(href="mailto:stephaniecd@berkeley.edu") stephaniecd@berkeley.edu
-            a.sub-link(href="https://github.com/stecd", target="_blank") github
-            a.sub-link(href="https://www.linkedin.com/in/stecd/", target="_blank") linkedin
-            .blurb(style="text-align: right;") last updated on april 8 2019
+    != partial("sections/_about.jade")

@@ -1,0 +1,60 @@
+@import "main.less";
+
+/* GRID cascade
+==================================== */
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  &:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+.grid-col {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+  background: transparent;
+}
+
+.grid-col--2 {
+  display: none;
+}
+.grid-col--3 {
+  //display: none;
+  margin-right: 0;
+}
+.grid-item {
+  margin-bottom: 20px;
+  //border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.grid-img img {
+  width: 100%;
+  display: table-row;
+}
+
+.grid-txt {
+  padding: 5px;
+  font-size: @small-font;
+  font-weight: 600;
+  letter-spacing: 3px;
+  .grid-txt {
+    font-weight: 300;
+    padding: 10px;
+  }
+}
+
+@media ( min-width: 1080px ) {
+  .grid-col {
+    width: 32%;
+  }
+  .grid-col--2 {
+    display: block;
+  }
+}
