@@ -25,19 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588e3b6e-f8c1-41fd-a81e-73170d27244c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/media/Dancer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/ARTheater/_layout.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/ARTheater/imgs/Program03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/ARTheater/imgs/Program04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/Saga/_layout.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/beebot.jade" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/beebot.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/grid.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/grid.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/project.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/project.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/_about.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_about.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/_portfolio.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_portfolio.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/_academia.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_academia.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,10 +137,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="630" y="123" width="1033" height="851" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1589352222334" />
-    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589528176964">
+    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589547162657">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1589528176964" />
+    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1589547162657" />
     <state x="937" y="89" width="606" height="819" key="find.popup" timestamp="1589540494278">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
