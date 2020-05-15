@@ -1,0 +1,31 @@
+.project-title Neural Style Transfer for So Long, and Thanks for all the Compute
+.role
+    span.bold Role:
+    | directing, acting, editing, research, software development
+.role
+    span.bold Screening:
+    | Film was screened at the
+    a.sub-link(href="https://ivyfilmfestival2020.org/", target="_blank") IVY Film Festival 2020
+
+.doc-link
+    a(href="https://inst.eecs.berkeley.edu/~cs194-26/fa18/upload/files/projFinalProposed/cs194-26-adv/docs/", target="_blank") Project Documentation
+
+iframe(width="560" height="315" src="https://www.youtube.com/embed/mfZ9-9tH_uE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+.blurb
+    | This short is about a Senior in College that is so stressed with finishing her last semester that she dreams of a monster that takes her diploma from her. She is taken through different nightmares from her college experience at UCBerkeley to finally realize, that it will be all ok.
+    br
+    br
+    | Our key takeaway from this project was thinking about the tool less as AI artist and more as a content-aware filter.
+    br
+    br
+    | It's an extremely flexible tool and has an almost infinite parameter space of style images and outputs, but the method also had extremely slow training times, and we needed a lot of time to iterate on our results. Thats what we saw as the main drawback: the slow iteration. It took us a month to evaluate Pix2pix fully, and another month to generate the nets with PyTorch to use for this project. Still, we only had about 24 samples to draw off of, and although towards the end we had some general heuristics for what would work, we still didn't have an amazing way of finding the perfect style images for what we wanted. In conclusion though, we show that you can express nuanced feeling using the medium of 360 footage combined with style transferring.
+
+.col-2.grid(data-colcade="columns: .grid-col, items: .grid-item")
+    .grid-col.grid-col--1
+    .grid-col.grid-col--2
+    - var idx = 1
+    while idx <= 5
+        .grid-item
+            .grid-img
+                img(src="imgs/"+idx+".png")
+                - idx++

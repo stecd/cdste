@@ -1,0 +1,24 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title cdste
+        link(rel='stylesheet', type='text/css', href='//fonts.googleapis.com/css?family=Ubuntu+Mono|Lato')
+        link(rel="stylesheet" href="../../res/main.css")
+        link(rel="stylesheet" href="../../res/grid.css")
+        link(rel="stylesheet" href="../../res/project.css")
+
+
+body
+    .project-page
+        .body_div
+            .vertical_center
+                a(href="../../index.html")
+                    #site_title
+                        | $ cd Ste
+                        .box.blink  
+                != yield
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
+    script(src="https://unpkg.com/colcade@0/colcade.js")
+    script(src="../../res/app.js")

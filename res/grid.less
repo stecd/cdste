@@ -1,4 +1,4 @@
-@import "main.less";
+@import "variables.less";
 
 /* GRID cascade
 ==================================== */
@@ -15,8 +15,8 @@
 }
 .grid-col {
   float: left;
-  width: 49%;
-  margin-right: 2%;
+  width: 46%;
+  margin-right: 4%;
   background: transparent;
 }
 
@@ -52,9 +52,39 @@
 
 @media ( min-width: 1080px ) {
   .grid-col {
-    width: 32%;
+    width: 28%;
+    margin-right: 5%;
+
   }
   .grid-col--2 {
     display: block;
   }
+}
+
+.col-2 {
+  .grid-col {
+    float: left;
+    width: 99%;
+    margin-right: 2%;
+    background: transparent;
+  }
+
+  @media ( min-width: 650px ) {
+    .grid-col {
+      width: 45%;
+    }
+    .grid-col--2 {
+      display: block;
+    }
+  }
+
+  @media ( min-width: 1080px ) {
+    .grid-col {
+      width: 45%;
+    }
+    .grid-col--1 {
+      display: block;
+    }
+  }
+
 }

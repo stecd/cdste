@@ -25,16 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588e3b6e-f8c1-41fd-a81e-73170d27244c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/_portfolio.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Dancer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ARTheater/_layout.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ARTheater/imgs/Program03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ARTheater/imgs/Program04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/Saga/_layout.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layout.jade" beforeDir="false" afterPath="$PROJECT_DIR$/_layout.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/BeeBot/beebot.jade" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/beebot.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/grid.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/grid.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/project.less" beforeDir="false" afterPath="$PROJECT_DIR$/res/project.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/_about.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_about.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/_portfolio.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_portfolio.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +50,23 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/BAMPFA" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/projects/BeeBot" />
-      <recent name="$PROJECT_DIR$/res" />
-      <recent name="$PROJECT_DIR$/sections" />
-      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/projects/BAMPFA/imgs" />
+      <recent name="$PROJECT_DIR$/projects/Compute/imgs" />
+      <recent name="$PROJECT_DIR$/projects" />
+      <recent name="$PROJECT_DIR$/theWatson" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/projects/BAMPFA" />
+      <recent name="$PROJECT_DIR$/projects/Blue" />
+      <recent name="$PROJECT_DIR$/projects/Compute" />
+      <recent name="$PROJECT_DIR$/projects/ARTheater" />
+      <recent name="$PROJECT_DIR$/projects/PinholeCamera" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -87,6 +95,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -108,25 +126,33 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="868" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1589341343440" />
-    <state x="828" y="258" key="RollbackChangesDialog" timestamp="1589367397094">
+    <state x="310" y="123" width="1382" height="773" key="DiffContextDialog" timestamp="1589541482280">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="828" y="258" key="RollbackChangesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1589367397094" />
-    <state x="648" y="187" key="SettingsEditor" timestamp="1589346918189">
+    <state x="310" y="123" width="1382" height="773" key="DiffContextDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1589541482280" />
+    <state x="828" y="258" key="RollbackChangesDialog" timestamp="1589541395002">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="648" y="187" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1589346918189" />
+    <state x="828" y="258" key="RollbackChangesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1589541395002" />
+    <state x="648" y="187" key="SettingsEditor" timestamp="1589508612820">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="648" y="187" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1589508612820" />
     <state x="630" y="123" width="1033" height="851" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1589352222334">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="630" y="123" width="1033" height="851" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1589352222334" />
-    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589407072065">
+    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589528176964">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1589407072065" />
-    <state x="811" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1589359172842">
+    <state x="1114" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1589528176964" />
+    <state x="937" y="89" width="606" height="819" key="find.popup" timestamp="1589540494278">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="811" y="256" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1589359172842" />
+    <state x="937" y="89" width="606" height="819" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1589540494278" />
+    <state x="811" y="256" width="670" height="676" key="search.everywhere.popup" timestamp="1589544294239">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="811" y="256" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1589544294239" />
   </component>
 </project>

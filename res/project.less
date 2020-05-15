@@ -1,4 +1,4 @@
-@import "main.less";
+@import "variables.less";
 
 /* Project Page
 ================================== */
@@ -20,7 +20,7 @@
     height: 50vh;
   }
 
-  .blurb {
+  .blurb, .role{
     width: inherit;
     color: black;
     text-transform: none;
@@ -28,7 +28,11 @@
     font-size: 0.8rem;
     letter-spacing: 1.5px;
     margin: 15px 0;
+  }
 
+  .bold {
+    font-weight: 800;
+    padding-right: 0.5em;
   }
 
   .project-title {
@@ -41,17 +45,35 @@
   }
 
   .doc-link {
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 2px;
     margin: 15px 0;
     padding: 0;
     font-size: 0.8rem;
     text-decoration: underline;
+    text-decoration-color: @portfolio-color;
   }
 
   a #site-title {
   }
+
+  .role {
+    padding: 0;
+  }
+
+  .sub-link {
+    text-decoration-color: @portfolio-color;
+  }
 }
+
+.center {
+  text-align: center;
+};
+
+img {
+  width: 100%;
+}
+
 
 @media all and (max-width: @breakpoint-1) {
   .project-page {

@@ -1,0 +1,25 @@
+.project-title SafeCup
+.role
+    span.bold Role:
+    | ideation, research, Raspberry-Pi development, electronics, prototyping
+.doc-link
+    a(href="https://docs.google.com/document/d/e/2PACX-1vSQ6TD1yqJ_f2qwaaXWQdX6XdRGWFqW7toVQXAADyZCBiLB0lP8E8tdc1cCEu8LnvT7yCtA95MXCk11/pub", target="_blank") Process Documentation
+
+iframe(width="560" height="315" src="https://www.youtube.com/embed/NKY4qsr1a1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+.blurb SafeCup is an interactive lid that keeps your drink safe while out. Spend less time worrying and more time enjoying yourself.
+    | Using Google Cloud Vision APIs we installed a little camera on a removable pint lid that scans and stores your driver's licence
+    | and then allows you to scan your own face to lock and unlock your cup. This project attempts to provide a feeling of safety when
+    | out at a bar, and the freedom to go dance or use the restroom and leave your drink unattended.
+
+
+.grid(data-colcade="columns: .grid-col, items: .grid-item")
+    .grid-col.grid-col--1
+    .grid-col.grid-col--2
+    .grid-col.grid-col--3
+    - var idx = 1
+    while idx <= 9
+        .grid-item
+            .grid-img
+                img(src="imgs/"+idx+".jpg")
+                - idx++
+iframe(src="https://docs.google.com/presentation/d/e/2PACX-1vQwF3Ye274x7xq1VvmHp4F2G8yfOvXPoJbVP4NZ7gk7ehZOccdueNbzvOU1UIctD7qnWJy0Wsy9pyid/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true")

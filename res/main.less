@@ -1,27 +1,4 @@
-//@portfolio-color: rgba(208,91,70,1);
-//@research-color: rgba(26, 132, 188, 1);
-//@about-color: #0f8f7a;
-
-//different color scheme!
-//@portfolio-color: #B98894;
-//@research-color: #CDD4DA;
-//@about-color: #C6D2CF;
-
-//different color scheme!
-@portfolio-color: #AB4374;
-@research-color: #2962A7;
-@about-color: #19697E;
-
-@font-alt: "Caslon540BT-Regular";
-@small-font: 0.9em;
-@highlight: rgba(0, 0, 0, 0.5);
-
-@breakpoint: 40em;
-@breakpoint-1: 50em;
-@colWidth: 40em;
-
-@bw: 0px;  // border width
-
+@import "variables.less";
 
 html, body {
   font-family: "Segoe UI", Frutiger ,"Frutiger Linotype","Dejavu Sans","Helvetica Neue", Arial, sans-serif;
@@ -62,10 +39,11 @@ a:hover {
   display: inline;
 }
 
-a.page-link:hover  {
-  display: table-cell;
-  opacity: 0.5;
-
+a.page-link.grid-item  {
+  display: table;
+  :hover {
+    opacity: 0.5;
+  }
 }
 
 .pl0 {
@@ -91,6 +69,13 @@ td.list {
   padding-bottom: 30px;
 }
 
+.intro {
+  font-family: 'Lato', sans-serif;
+  width: @colWidth/2;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
 .body_div {
   display: table;
   height: 100vh;
@@ -101,7 +86,7 @@ td.list {
     display: table-cell;
     vertical-align: middle;
     padding: 50px 5px;
-    max-width: @colWidth;
+    max-width: @colWidth*1.5;
   }
 
   #site_title {
@@ -201,7 +186,7 @@ td.list {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: white;
+  color: @font-color;
 }
 
 #toTop {

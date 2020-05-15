@@ -1,0 +1,34 @@
+.project-title BAMPFA Augmented Reality
+.role
+    span.bold Role:
+    | ideation, research, engineering, prototyping, design
+.doc-link
+    a(href="https://xrlab.berkeley.edu/research/bampfa-ar-argmented-time/", target="_blank") Lab Project Page
+    br
+    a(href="https://bampfa.org/program/bampfa-ar-augmented-time", target="_blank") Museum Project Page
+
+img(src="imgs/cover.png")
+
+.blurb BAMPFA AR—Augmented Time explores new modes of narrative and storytelling
+    | using augmented reality as a medium. The project unfolds the history of the new BAMPFA,
+    | from the building’s inauguration in 1940 as the university printing press,
+    | to an abandoned structure covered with graffiti by local artists, to its transformation
+    | into a contemporary cultural hub.
+
+    br
+    br
+    .bold Press
+        a.sub-link(href="https://archpaper.com/2020/01/luisa-caldas-uses-ar-to-let-the-dsr-designed-bampfa-tell-its-own-story/", target="_blank") Archpaper Article
+        a.sub-link(href="https://www.dailycal.org/2019/12/12/uc-berkeley-professor-luisa-caldas-uses-augmented-reality-to-reveal-untold-history-unheard-voices-at-bampfa/", target="_blank") DailyCal Article
+
+
+.grid(data-colcade="columns: .grid-col, items: .grid-item")
+    .grid-col.grid-col--1
+    .grid-col.grid-col--2
+    .grid-col.grid-col--3
+    - var idx = 1
+    while idx <= 3
+        .grid-item
+            .grid-img
+                img(src="imgs/"+idx+".png")
+                - idx++
