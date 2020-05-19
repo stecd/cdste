@@ -25,10 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588e3b6e-f8c1-41fd-a81e-73170d27244c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/StephanieCDResume.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/_academia.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_academia.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,8 @@
       <workItem from="1589567716569" duration="520000" />
       <workItem from="1589661262544" duration="350000" />
       <workItem from="1589860994127" duration="1979000" />
-      <workItem from="1589863300848" duration="251000" />
+      <workItem from="1589863300848" duration="347000" />
+      <workItem from="1589920383941" duration="347000" />
     </task>
     <servers />
   </component>
