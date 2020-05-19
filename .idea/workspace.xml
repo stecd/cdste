@@ -25,8 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588e3b6e-f8c1-41fd-a81e-73170d27244c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/_about.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_about.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/StephanieCDResume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/_academia.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_academia.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +49,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/BAMPFA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/ARCH229" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/projects/ARCH229/imgs" />
+      <recent name="$PROJECT_DIR$/projects/BAMPFA/imgs" />
+      <recent name="$PROJECT_DIR$/projects/Compute/imgs" />
+      <recent name="$PROJECT_DIR$/projects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/ARCH229" />
       <recent name="$PROJECT_DIR$/projects/BAMPFA" />
       <recent name="$PROJECT_DIR$/projects/Blue" />
       <recent name="$PROJECT_DIR$/projects/Compute" />
       <recent name="$PROJECT_DIR$/projects/ARTheater" />
-      <recent name="$PROJECT_DIR$/projects/PinholeCamera" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/media" />
-      <recent name="$PROJECT_DIR$/projects/BAMPFA/imgs" />
-      <recent name="$PROJECT_DIR$/projects/Compute/imgs" />
-      <recent name="$PROJECT_DIR$/projects" />
-      <recent name="$PROJECT_DIR$/theWatson" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -86,7 +89,9 @@
       <workItem from="1554751024660" duration="898000" />
       <workItem from="1554754194861" duration="280000" />
       <workItem from="1589567716569" duration="520000" />
-      <workItem from="1589661262544" duration="298000" />
+      <workItem from="1589661262544" duration="350000" />
+      <workItem from="1589860994127" duration="1979000" />
+      <workItem from="1589863300848" duration="251000" />
     </task>
     <servers />
   </component>
