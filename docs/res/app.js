@@ -32,6 +32,7 @@ function resetUI() {
     $('#portfolio').css('color', portfolio_color).css('box-shadow', 'inset 0 -2px 0 ' + portfolio_color);
 }
 
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
