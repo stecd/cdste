@@ -25,57 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588e3b6e-f8c1-41fd-a81e-73170d27244c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/media/StephanieCDResume_Nov01_2021.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/BeeBot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/BeeBot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/CubeSort.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Dancer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/SafeCup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Saga.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/Saga.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/TheCode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/TheWatson.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/bampfa.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/bampfa.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pinhole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/artheater.jade" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ARTheater/artheater.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/imgs/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ARTheater/imgs/cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/imgs/tarotCard02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/imgs/tarotCard03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/imgs/tarotCard04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ARTheater/imgs/tarotCard05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BAMPFA/bampfa.jade" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BAMPFA/bampfa.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BAMPFA/imgs/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BAMPFA/imgs/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BAMPFA/imgs/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BAMPFA/imgs/cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/BeeBot/imgs/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BeeBot/imgs/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/compute.jade" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Compute/compute.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/imgs/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/imgs/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/imgs/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/imgs/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Compute/imgs/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Saga/imgs/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Saga/imgs/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sections/_about.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_about.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/_portfolio.jade" beforeDir="false" afterPath="$PROJECT_DIR$/sections/_portfolio.jade" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +92,7 @@
       <workItem from="1589920383941" duration="651000" />
       <workItem from="1589936054174" duration="356000" />
       <workItem from="1596787624222" duration="1000" />
-      <workItem from="1635822088878" duration="3255000" />
+      <workItem from="1635822088878" duration="3574000" />
     </task>
     <servers />
   </component>
