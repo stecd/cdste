@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="steclaud_">
+  <rect width="1200" height="900" fill="#CDBAA2"/>
+  <path d="M104 268 C 176 196, 248 344, 322 268 C 396 192, 468 340, 542 264 C 616 188, 688 336, 762 260"
+        stroke="#B96A4B" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <text x="112" y="546" font-family="Georgia, 'Times New Roman', serif" font-size="140" fill="#33302B">steclaud_</text>
+</svg>

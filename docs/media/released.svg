@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="released.">
+  <rect width="1200" height="900" fill="#F6F1E7"/>
+  <g fill="#B96A4B">
+    <circle cx="164" cy="212" r="19"/>
+    <circle cx="219" cy="188" r="11"/>
+    <circle cx="252" cy="231" r="15"/>
+    <circle cx="196" cy="258" r="8"/>
+    <circle cx="303" cy="199" r="7"/>
+  </g>
+  <text x="112" y="512" font-family="Georgia, 'Times New Roman', serif" font-size="146" fill="#33302B">released.</text>
+  <path d="M114 566 C 268 558, 402 574, 556 562" stroke="#33302B" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.55"/>
+</svg>
